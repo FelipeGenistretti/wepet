@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    align-items: center;
+    border-bottom: 1px solid black;
+    
+}
+
+.banner__site{
+    display: flex;
+    width: 1480px;
+    height: 610px;
+}
+
+header a img{
+    width: 183px;
+    height: 54px;
+}
+
+header input{
+    margin-top: 13px;
+    width: 554px;
+    height: 73px;
+    border-radius: 14px;
+}
+
+header nav {
+    margin-top: 13px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-right: 78px;
+    align-items: center;
+}
+
+.elementos__navegacao{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    margin-bottom: 12px;
+}
+
+body{
+   max-width: 1480px;
+   font-family: "Inter", sans-serif;
+   overflow-x: hidden;
+}
+
+.page__animais{
+    display: flex;
+    max-width: 1480px;
+    position: absolute;
+}
+
+.dog p{
+    display: flex;
+    justify-content: center;
+}
+
+.cat p{
+    display: flex;
+    justify-content: center;
+}
+
+.bird p{
+    display: flex;
+    justify-content: center;
+}
+
+.fish p{
+    display: flex;
+    justify-content: center;
+}
+
+.rabbit p{
+    display: flex;
+    justify-content: center;
+}
